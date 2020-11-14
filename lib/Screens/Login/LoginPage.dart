@@ -19,6 +19,7 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   bool isLoading = false;
+
   @override
   void initState() {
     super.initState();
@@ -90,15 +91,6 @@ class _LoginPageState extends State<LoginPage> {
     } else {
       Message().showMessage(message: "Please Enter Credentials.");
     }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      resizeToAvoidBottomPadding: false,
-      backgroundColor: Theme.of(context).accentColor,
-      body: buildBody(),
-    );
   }
 
   Widget buildBody() {
@@ -194,5 +186,14 @@ class _LoginPageState extends State<LoginPage> {
               valueColor: AlwaysStoppedAnimation<Color>(Colors.red),
             ),
           );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      resizeToAvoidBottomPadding: false,
+      backgroundColor: Theme.of(context).accentColor,
+      body: buildBody(),
+    );
   }
 }

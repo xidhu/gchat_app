@@ -6,19 +6,21 @@ import 'package:flutter/material.dart';
 import '../../widgets/widgets.dart';
 
 class AddChat extends StatefulWidget {
-  ChatUser user;
   AddChat({ChatUser user}) {
     this.user = user;
   }
+
+  ChatUser user;
 
   @override
   _AddChatState createState() => _AddChatState();
 }
 
 class _AddChatState extends State<AddChat> {
-  String start = "";
   String last = "";
   final search_cnt = TextEditingController();
+  String start = "";
+
   @override
   Widget build(BuildContext context) {
     search_cnt.addListener(() {

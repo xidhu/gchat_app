@@ -5,8 +5,9 @@ import 'package:Gchat/firebase/Auth.dart';
 
 class SignUpPage extends StatelessWidget {
   SignUpPage({Key key}) {}
-  final TextEditingController name = TextEditingController();
+
   final TextEditingController email = TextEditingController();
+  final TextEditingController name = TextEditingController();
   final TextEditingController password = TextEditingController();
   final TextEditingController passwordCon = TextEditingController();
 
@@ -50,15 +51,6 @@ class SignUpPage extends StatelessWidget {
     } else {
       Message().showMessage(message: "Enter Details.");
     }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      resizeToAvoidBottomPadding: false,
-      backgroundColor: Theme.of(context).accentColor,
-      body: buildBody(context),
-    );
   }
 
   Widget buildBody(context) {
@@ -136,6 +128,15 @@ class SignUpPage extends StatelessWidget {
               ],
             )),
       ]),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      resizeToAvoidBottomPadding: false,
+      backgroundColor: Theme.of(context).accentColor,
+      body: buildBody(context),
     );
   }
 }

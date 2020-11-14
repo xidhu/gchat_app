@@ -50,15 +50,6 @@ class _ForgotPageState extends State<ForgotPage> {
     }
   }
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      resizeToAvoidBottomPadding: false,
-      backgroundColor: Theme.of(context).accentColor,
-      body: buildBody(context),
-    );
-  }
-
   Widget buildBody(context) {
     double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
@@ -111,5 +102,14 @@ class _ForgotPageState extends State<ForgotPage> {
               valueColor: AlwaysStoppedAnimation<Color>(Colors.red),
             ),
           );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      resizeToAvoidBottomPadding: false,
+      backgroundColor: Theme.of(context).accentColor,
+      body: buildBody(context),
+    );
   }
 }
