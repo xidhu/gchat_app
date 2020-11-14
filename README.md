@@ -1,16 +1,64 @@
-# gchat
+## Gchat
+*Chat App*
 
-A new Flutter project.
 
-## Getting Started
+> A Simple  Chating Application
 
-This project is a starting point for a Flutter application.
+ Supports Sdk 16 to 29 **Flutter Build**. 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Official [Flutter][1]  for Framework.
+- Official [Firebase][2] for Database.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+# Features
+
+- Super Simple User Interface
+- No bloated dependencies
+- Seamlessly build *without any configuration*
+
+# Build
+
+**Installing Flutter**
+
+```shell
+$ git clone https://github.com/flutter/flutter.git -b stable
+```
+
+
+
+
+
+*Zip:*
+
+[Click Here][4]
+
+
+**Building App**
+
+```shell
+$ flutter build apk
+
+```
+
+
+
+# Contributing
+
+See [contributing.markdown][5] for details.
+
+# Support
+
+See  the [issue page][6]  for any kind of support.
+
+# License
+
+MIT
+
+[1]: https://github.com/flutter/flutter
+[2]: https://firebase.google.com
+[4]:https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_1.22.2-stable.zip
+[5]: https://github.com/xidhu/Gchat-app/blob/master/CONTRIBUTING.md
+[6]: https://github.com/xidhu/Gchat-app/issues
