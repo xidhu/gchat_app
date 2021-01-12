@@ -17,7 +17,7 @@
 
 - Super Simple User Interface
 - No bloated dependencies
-- Seamlessly build *without any configuration*
+- Simple build *without any configuration*
 
 # Build
 
@@ -55,7 +55,7 @@ See  the [issue page][6]  for any kind of support.
 
 # License
 
-MIT
+MIT 
 
 [1]: https://github.com/flutter/flutter
 [2]: https://firebase.google.com
