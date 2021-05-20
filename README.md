@@ -60,5 +60,5 @@ MIT
 [1]: https://github.com/flutter/flutter
 [2]: https://firebase.google.com
 [4]:https://storage.googleapis.com/flutter_infra/releases/stable/windows/flutter_windows_1.22.2-stable.zip
-[5]: https://github.com/xidhu/Gchat-app/blob/master/CONTRIBUTING.md
+[5]: https://github.com/xidhu/xidhu/blob/main/CONTRIBUTING.md
 [6]: https://github.com/xidhu/Gchat-app/issues
