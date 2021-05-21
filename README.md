@@ -4,7 +4,7 @@
 
 > A Simple  Chating Application
 
- Supports Sdk 16 to 29 **Flutter Build**. 
+
 
 
 - Official [Flutter][1]  for Framework.
@@ -17,7 +17,7 @@
 
 - Super Simple User Interface
 - No bloated dependencies
-- Simple build *without any configuration*
+
 
 # Build
 
